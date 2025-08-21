@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import magnifyingGlass from "../assets/magnifying-glass.svg";
+import "./SearchForm.css";
 
 export default function SearchForm({ onSearch }) {
   const [inputCity, setInputCity] = useState("");
@@ -19,16 +20,19 @@ export default function SearchForm({ onSearch }) {
 
   return (
     <form onSubmit={handleSubmit}>
-      <input
-        type="text"
-        placeholder="Enter a city"
-        value={inputCity}
-        onChange={handleInputChange}
-        required
-      />
-      <button type="submit">
-        <img src={magnifyingGlass} alt="Search" width="25" height="25" />
-      </button>
+      <div className="form-inner-container">
+        <input
+          className="search"
+          type="text"
+          placeholder="Enter a city"
+          value={inputCity}
+          onChange={handleInputChange}
+          required
+        />
+        <button type="submit" className="submit-button-svg">
+          <img src={magnifyingGlass} alt="Search" width="25" height="25" />
+        </button>
+      </div>
     </form>
   );
 }
