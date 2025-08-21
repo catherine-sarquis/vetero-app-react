@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import "./App.css";
 import Header from "./components/Header";
 import SearchForm from "./components/SearchForm";
+import DisplayCity from "./components/DisplayCity";
 import axios from "axios";
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
     <>
       <Header data={weatherData} />
       <SearchForm onSearch={handleSearch} />
+      <DisplayCity city={city} />
     </>
   );
 }

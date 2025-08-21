@@ -26,7 +26,6 @@ export default function SearchForm({ onSearch }) {
         onChange={handleInputChange}
         required
       />
-      {/* <input type="submit" value="Search" /> */}
       <button type="submit">
         <img src={magnifyingGlass} alt="Search" width="25" height="25" />
       </button>
