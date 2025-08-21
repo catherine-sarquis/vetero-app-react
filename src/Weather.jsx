@@ -3,7 +3,7 @@ import axios from "axios";
 export default function Weather(props) {
   function handleResponse(response) {
     alert(
-      `The weather in ${response.data.city} is ${response.data.temperature.current}`
+      `The weather in ${response.data.city} is ${response.data.temperature.current} and I wonder if this will work`
     );
   }
 
