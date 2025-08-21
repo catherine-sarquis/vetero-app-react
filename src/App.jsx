@@ -1,11 +1,11 @@
 import "./App.css";
-import SearchForm from "./SearchForm";
+import Header from "./components/Header";
 
 function App() {
   return (
     <>
-      <h1>Vetero App in React</h1>
-      <SearchForm />
+      <h1>Vetero</h1>
+      <Header />
     </>
   );
 }
