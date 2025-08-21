@@ -3,6 +3,7 @@ import "./App.css";
 import Header from "./components/Header";
 import SearchForm from "./components/SearchForm";
 import DisplayCity from "./components/DisplayCity";
+import DisplayTodayData from "./components/DisplayTodayData";
 import axios from "axios";
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
       <Header data={weatherData} />
       <SearchForm onSearch={handleSearch} />
       <DisplayCity city={city} />
+      <DisplayTodayData data={weatherData} />
     </>
   );
 }

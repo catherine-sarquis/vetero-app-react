@@ -1,0 +1,33 @@
+.weather-today {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffe5ee;
+  padding: 10px 30px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+#humidity-percentage,
+#windspeed,
+#windspeed-unit {
+  color: #ff7bac;
+  font-weight: 700;
+}
+
+.temp-today {
+  display: flex;
+  align-items: center;
+  font-size: 60px;
+  height: fit-content
+}
+
+.temp-today img {
+  display: block;
+  margin-right: 20px;
+}
+
+#temp-today-val {
+  font-size: 60px;
+}
