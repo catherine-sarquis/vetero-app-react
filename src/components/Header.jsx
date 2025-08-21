@@ -2,6 +2,8 @@ import FormatDate from "./FormatDate";
 import "./Header.css";
 
 export default function Header({ data }) {
+  // format the date
+
   const dateObject = new Date(data.time * 1000);
   const formattedDate = FormatDate(dateObject);
 
@@ -17,8 +19,6 @@ export default function Header({ data }) {
           {dateString}
         </div>
       </div>
-
-      {/* <SearchForm /> */}
     </header>
   );
 }
