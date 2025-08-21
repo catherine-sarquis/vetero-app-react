@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import magnifyingGlass from "../assets/magnifying-glass.svg";
 
 export default function SearchForm({ onSearch }) {
   const [inputCity, setInputCity] = useState("");
@@ -23,8 +24,12 @@ export default function SearchForm({ onSearch }) {
         placeholder="Enter a city"
         value={inputCity}
         onChange={handleInputChange}
+        required
       />
-      <input type="submit" value="Search" />
+      {/* <input type="submit" value="Search" /> */}
+      <button type="submit">
+        <img src={magnifyingGlass} alt="Search" width="25" height="25" />
+      </button>
     </form>
   );
 }
