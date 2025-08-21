@@ -55,10 +55,10 @@ export default function FormatDate(date) {
   let suffix = getSuffix(dayNo);
 
   return {
-    day: { day },
-    dayNo: { dayNo },
-    suffix: { suffix },
-    month: { month },
-    year: { year },
+    day,
+    dayNo,
+    suffix,
+    month,
+    year,
   };
 }
