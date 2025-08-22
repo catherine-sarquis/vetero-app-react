@@ -43,14 +43,16 @@ function App() {
   console.log(weatherData);
 
   return (
-    <div className="container">
-      <Header data={weatherData} />
-      <SearchForm onSearch={handleSearch} />
-      <DisplayCity city={city} />
-      <DisplayTodayData data={weatherData} />
-      <FiveDayForecast data={forecastData} />
+    <>
+      <div className="container">
+        <Header data={weatherData} />
+        <SearchForm onSearch={handleSearch} />
+        <DisplayCity city={city} />
+        <DisplayTodayData data={weatherData} />
+        <FiveDayForecast data={forecastData} />
+      </div>
       <Footer />
-    </div>
+    </>
   );
 }
 
