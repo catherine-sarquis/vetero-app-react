@@ -3,10 +3,10 @@
   justify-content: space-between;
   align-items: center;
   background-color: #ffe5ee;
-  padding: 10px 30px;
+  padding: 1rem 2rem;
   margin-bottom: 50px;
   border-radius: 10px;
-  font-size: 18px;
+  font-size: 1rem;
 }
 
 #humidity-percentage,
@@ -29,5 +29,9 @@
 }
 
 #temp-today-val {
-  font-size: 60px;
+  font-size: 3rem;
+}
+
+#temp-today-unit {
+  font-size: 2rem;
 }

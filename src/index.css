@@ -31,31 +31,43 @@ body {
   min-height: 100vh;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.title,
+.language,
+h1,
+h2,
+.temp-today,
+.forecast-temp,
+.select-temp {
+  font-family: t26-carbon,
+    monospace;
+  font-weight: 700;
+  font-style: normal;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
+form .search,
+.day,
+.weather-description {
+  font-family: logic-monoscript,
+    mono;
   font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
+  font-style: normal;
 }
 
-button:hover {
-  border-color: #646cff;
+.today-date {
+  font-family: logic-monoscript,
+    mono;
+  font-weight: 400;
+  font-style: normal;
 }
 
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+form .search::placeholder,
+footer {
+  font-family: logic-monoscript,
+    mono;
+  font-weight: 300;
+  font-style: normal;
 }
+
 
 @media (prefers-color-scheme: light) {
   :root {
