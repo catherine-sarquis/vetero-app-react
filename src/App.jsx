@@ -6,6 +6,7 @@ import DisplayCity from "./components/DisplayCity";
 import DisplayTodayData from "./components/DisplayTodayData";
 import axios from "axios";
 import FiveDayForecast from "./components/FiveDayForecast";
+import Footer from "./components/Footer";
 
 function App() {
   const [weatherData, setWeatherData] = useState(null);
@@ -48,6 +49,7 @@ function App() {
       <DisplayCity city={city} />
       <DisplayTodayData data={weatherData} />
       <FiveDayForecast data={forecastData} />
+      <Footer />
     </div>
   );
 }
