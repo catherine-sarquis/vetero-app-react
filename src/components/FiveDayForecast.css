@@ -7,3 +7,34 @@
   margin-bottom: 10px;
   font-size: 18px;
 }
+
+.day {
+  flex: 1;
+}
+
+.day p {
+  margin: 0px;
+}
+
+.temp-icon img {
+  width: 80px;
+  height: auto;
+}
+
+@media (max-width: 720px) {
+  .next-5-days {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+
+  .day {
+    margin-bottom: 2rem;
+  }
+
+  .temp-icon img {
+    width: 60px;
+    height: auto;
+  }
+
+}
