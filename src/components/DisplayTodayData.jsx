@@ -11,7 +11,7 @@ export default function DisplayTodayData({ data }) {
         </p>
         <p>
           Wind speed: <span id="windspeed">{Math.round(data.wind.speed)}</span>{" "}
-          <span id="windspeed-unit">kilometres per hour</span>
+          <span id="windspeed-unit">km/hr</span>
         </p>
       </div>
       <div className="temp-today">

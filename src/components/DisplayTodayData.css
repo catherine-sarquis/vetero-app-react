@@ -9,6 +9,10 @@
   font-size: 1rem;
 }
 
+.weather-description {
+  text-align: left;
+}
+
 #humidity-percentage,
 #windspeed,
 #windspeed-unit {

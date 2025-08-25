@@ -1,0 +1,28 @@
+footer {
+  font-family: logic-monoscript,
+    mono;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+}
+
+
+a:link {
+  text-decoration: none;
+  color: #ff7bac
+}
+
+a:visited {
+  text-decoration: none;
+  color: #ff7bac
+}
+
+a:hover {
+  text-decoration: none;
+  color: #b2446d;
+}
+
+a:active {
+  text-decoration: none;
+  color: #ff7bac
+}

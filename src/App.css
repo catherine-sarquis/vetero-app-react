@@ -7,8 +7,10 @@
 
 .container {
   padding: 40px;
-  background-color: rgb(246, 243, 247);
+  color: black;
+  background-color: rgb(254, 254, 254);
   border: 6px solid #ff7bac;
   border-radius: 10px;
   box-shadow: rgb(0, 0, 0) 8px 8px;
+  margin-bottom: 1rem;
 }
