@@ -13,9 +13,7 @@
   text-align: left;
 }
 
-#humidity-percentage,
-#windspeed,
-#windspeed-unit {
+.weather-units {
   color: #ff7bac;
   font-weight: 700;
 }

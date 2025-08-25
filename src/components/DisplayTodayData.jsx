@@ -4,14 +4,18 @@ export default function DisplayTodayData({ data }) {
   return (
     <div className="weather-today">
       <div className="weather-description">
-        <p id="description">{data.condition.description}</p>
-        <p>
-          Humidity:{" "}
-          <span id="humidity-percentage">{data.temperature.humidity}%</span>
+        <p id="description">
+          {data.condition.description.charAt(0).toUpperCase() +
+            data.condition.description.slice(1)}
         </p>
         <p>
-          Wind speed: <span id="windspeed">{Math.round(data.wind.speed)}</span>{" "}
-          <span id="windspeed-unit">km/hr</span>
+          Humidity:{" "}
+          <span className="weather-units">{data.temperature.humidity}%</span>
+        </p>
+        <p>
+          Wind speed:{" "}
+          <span className="weather-units">{Math.round(data.wind.speed)}</span>{" "}
+          <span className="weather-units">km/hr</span>
         </p>
       </div>
       <div className="temp-today">
