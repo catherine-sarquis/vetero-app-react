@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <path d="M 30 30 L 60 90 L 90 30" stroke="#b2446d" stroke-width="10" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text 
+    x="60" 
+    y="115" 
+    font-family="Consolas, Monaco, 'Courier New', monospace" 
+    font-size="16" 
+    fill="#b2446d" 
+    text-anchor="middle">
+      VETERO
+  </text>
+</svg>
