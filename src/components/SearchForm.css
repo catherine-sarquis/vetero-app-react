@@ -47,3 +47,10 @@ form .search::placeholder {
   font-style: normal;
   color: rgb(118, 118, 118);
 }
+
+@media (max-width: 620px) {
+
+  .submit-button-svg {
+    display: none;
+  }
+}
