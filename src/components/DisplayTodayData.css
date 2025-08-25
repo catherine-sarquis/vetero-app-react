@@ -21,7 +21,6 @@
 .temp-today {
   display: flex;
   align-items: center;
-  font-size: 60px;
   height: fit-content
 }
 
@@ -31,7 +30,7 @@
 }
 
 #temp-today-val {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 #temp-today-unit {
@@ -41,5 +40,13 @@
 @media (max-width: 620px) {
   .weather-today {
     flex-direction: column;
+  }
+
+  #temp-today-val {
+    font-size: 2rem;
+  }
+
+  #temp-today-unit {
+    font-size: 1rem;
   }
 }
