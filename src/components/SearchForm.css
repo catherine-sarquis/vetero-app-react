@@ -48,6 +48,10 @@ form .search::placeholder {
   color: rgb(118, 118, 118);
 }
 
+input {
+  color: rgb(118, 118, 118);
+}
+
 @media (max-width: 620px) {
 
   .submit-button-svg {
