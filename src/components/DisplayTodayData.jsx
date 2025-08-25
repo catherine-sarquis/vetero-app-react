@@ -14,7 +14,8 @@ export default function DisplayTodayData({ data }) {
         </p>
         <p>
           Wind speed:{" "}
-          <span className="weather-units">{Math.round(data.wind.speed)}</span>{" "}
+          <span className="weather-units">{Math.round(data.wind.speed)}</span>
+          &nbsp;
           <span className="weather-units">km/hr</span>
         </p>
       </div>
@@ -22,7 +23,7 @@ export default function DisplayTodayData({ data }) {
         <div id="temp-icon">
           <img src={data.condition.icon_url} alt="weather icon"></img>
         </div>
-        <span id="temp-today-val">{Math.round(data.temperature.current)}</span>{" "}
+        <span id="temp-today-val">{Math.round(data.temperature.current)}</span>
         <span id="temp-today-unit">
           <sup>°C</sup>
         </span>

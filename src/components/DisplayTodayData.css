@@ -37,3 +37,9 @@
 #temp-today-unit {
   font-size: 2rem;
 }
+
+@media (max-width: 620px) {
+  .weather-today {
+    flex-direction: column;
+  }
+}
